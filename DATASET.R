@@ -2,7 +2,7 @@
 
 ##usethis::use_data("DATASET")
 
-dat <- readRDS("data-raw/glove_6B_50.RDS")
+dat <- readRDS("childeswordvec.rds")
 glove50 <- as.data.table(dat)
 setkey(glove50, "words")
 
